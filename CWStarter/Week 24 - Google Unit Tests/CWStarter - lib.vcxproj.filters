@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CWStarter\CWStarter\include\BouncyPlat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Character.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\ContactListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Door.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\DoorSensor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Enemy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Floor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Game.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\HUD.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Hazard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\HomeSensor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Lvl1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\MovableObj.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\MovingPlat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\NormPlat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\OneWayPlat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\PickUp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\SFMLDebugDraw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Sensor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\TexManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CWStarter\CWStarter\include\Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CWStarter\CWStarter\src\BouncyPlat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Character.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\ContactListener.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Door.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\DoorSensor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Enemy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Floor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\HUD.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Hazard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\HomeSensor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Lvl1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\MovableObj.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\MovingPlat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\NormPlat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\OneWayPlat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\PickUp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Platform.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\SFMLDebugDraw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Sensor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\TexManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CWStarter\CWStarter\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

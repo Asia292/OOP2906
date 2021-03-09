@@ -1,0 +1,36 @@
+﻿  Game.cpp
+c:\users\tia-a\documents\oop2.2\student pack\lab code\cwstarter\cwstarter\cwstarter\src\game.cpp(67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\tia-a\documents\oop2.2\student pack\lab code\cwstarter\cwstarter\cwstarter\src\game.cpp(74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Lvl1.cpp
+c:\users\tia-a\documents\oop2.2\student pack\lab code\cwstarter\cwstarter\cwstarter\src\lvl1.cpp(168): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+c:\users\tia-a\documents\oop2.2\student pack\lab code\cwstarter\cwstarter\cwstarter\src\lvl1.cpp(206): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+c:\users\tia-a\documents\oop2.2\student pack\lab code\cwstarter\cwstarter\cwstarter\src\lvl1.cpp(214): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  TexManager.cpp
+  main.cpp
+  Generating Code...
+winmm.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+winmm.lib(WINMM.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+gdi32.lib(GDI32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+gdi32.lib(GDI32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+openal32.lib(OpenAL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+openal32.lib(OpenAL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+vorbis.lib(vorbisenc.obj) : warning LNK4006: vorbis_encode_init already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: vorbis_encode_setup_managed already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: vorbis_encode_setup_vbr already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: vorbis_encode_init_vbr already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: vorbis_encode_setup_init already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4006: vorbis_encode_ctl already defined in vorbisenc.lib(vorbisenc.obj); second definition ignored
+vorbis.lib(vorbisenc.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  CWStarter - lib.vcxproj -> C:\Users\Tia-A\Documents\OOP2.2\Student Pack\lab code\CWStarter\Week 24 - Google Unit Tests\..\bin\CWStarter - lib\CWStarter - lib.lib

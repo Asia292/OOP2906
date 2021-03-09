@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{283C484A-94C7-B50E-9DD8-380309E3110F}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CWStarter - lib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\bin\CWStarter - lib\</OutDir>
+    <IntDir>..\build\CWStarter - lib\Debug\</IntDir>
+    <TargetName>CWStarter - lib</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\bin\CWStarter - lib\</OutDir>
+    <IntDir>..\build\CWStarter - lib\Release\</IntDir>
+    <TargetName>CWStarter - lib</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CWStarter\CWStarter\include;..\..\..\vendor\Box2D;..\..\..\vendor\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>Box2D.lib;sfml-main.lib;sfml-graphics-s-d.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;opengl32.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;jpeg.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\vendor\Box2D\x64\Debug;..\..\..\vendor\SFML-2.4.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\CWStarter\CWStarter\include;..\..\..\vendor\Box2D;..\..\..\vendor\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>Box2D.lib;sfml-main.lib;sfml-graphics-s.lib;sfml-system-s.lib;sfml-window-s.lib;sfml-audio-s.lib;opengl32.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;jpeg.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\vendor\Box2D\x64\Release;..\..\..\vendor\SFML-2.4.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CWStarter\CWStarter\include\BouncyPlat.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Character.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\ContactListener.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Door.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\DoorSensor.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Enemy.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Floor.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Game.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\HUD.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Hazard.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\HomeSensor.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Lvl1.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\MovableObj.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\MovingPlat.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\NormPlat.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\OneWayPlat.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\PickUp.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Platform.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Player.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\SFMLDebugDraw.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Sensor.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\TexManager.h" />
+    <ClInclude Include="..\CWStarter\CWStarter\include\Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CWStarter\CWStarter\src\BouncyPlat.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Character.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\ContactListener.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Door.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\DoorSensor.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Enemy.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Floor.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Game.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\HUD.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Hazard.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\HomeSensor.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Lvl1.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\MovableObj.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\MovingPlat.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\NormPlat.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\OneWayPlat.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\PickUp.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Platform.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Player.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\SFMLDebugDraw.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Sensor.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\TexManager.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\Texture.cpp" />
+    <ClCompile Include="..\CWStarter\CWStarter\src\main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

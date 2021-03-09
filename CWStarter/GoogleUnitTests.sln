@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24 Google Unit Test", "Week 24 - Google Unit Tests\24 Google Unit Test.vcxproj", "{E82699DF-5488-76ED-DDF5-BC9F4956ADAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CWStarter - lib", "Week 24 - Google Unit Tests\CWStarter - lib.vcxproj", "{283C484A-94C7-B50E-9DD8-380309E3110F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest", "..\..\vendor\googletest\googletest.vcxproj", "{E2296FC4-CEE1-B011-37E9-896D23C04B02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82699DF-5488-76ED-DDF5-BC9F4956ADAC}.Debug|x64.ActiveCfg = Debug|x64
+		{E82699DF-5488-76ED-DDF5-BC9F4956ADAC}.Debug|x64.Build.0 = Debug|x64
+		{E82699DF-5488-76ED-DDF5-BC9F4956ADAC}.Release|x64.ActiveCfg = Release|x64
+		{E82699DF-5488-76ED-DDF5-BC9F4956ADAC}.Release|x64.Build.0 = Release|x64
+		{283C484A-94C7-B50E-9DD8-380309E3110F}.Debug|x64.ActiveCfg = Debug|x64
+		{283C484A-94C7-B50E-9DD8-380309E3110F}.Debug|x64.Build.0 = Debug|x64
+		{283C484A-94C7-B50E-9DD8-380309E3110F}.Release|x64.ActiveCfg = Release|x64
+		{283C484A-94C7-B50E-9DD8-380309E3110F}.Release|x64.Build.0 = Release|x64
+		{E2296FC4-CEE1-B011-37E9-896D23C04B02}.Debug|x64.ActiveCfg = Debug|x64
+		{E2296FC4-CEE1-B011-37E9-896D23C04B02}.Debug|x64.Build.0 = Debug|x64
+		{E2296FC4-CEE1-B011-37E9-896D23C04B02}.Release|x64.ActiveCfg = Release|x64
+		{E2296FC4-CEE1-B011-37E9-896D23C04B02}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
